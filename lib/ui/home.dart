@@ -14,7 +14,7 @@ class BmiState extends State<Home> {
     // TODO: implement build
     return new Scaffold(
 		appBar: new AppBar(
-			title: 'Measure BMI',
+			title: new Text('Measure BMI'),
 			centerTitle: true,
 			backgroundColor: Colors.purple,
 			
