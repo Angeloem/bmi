@@ -52,8 +52,30 @@ class BmiState extends State<Home> {
 									decoration: new InputDecoration(
 										hintText: 'E.g 6.5',
 										labelText: 'Height',
+										icon: new Icon(Icons.insert_chart)
 									),
-								)
+								),
+								new TextField(
+									controller: null,
+									keyboardType: TextInputType.text,
+									decoration: new InputDecoration(
+										labelText: 'Weight',
+										hintText: 'eg 56kg',
+										icon: new Icon(Icons.line_weight)
+									),
+								),
+								
+								new Padding(padding: new EdgeInsets.all(10)),
+							
+								new Container(
+									alignment: Alignment.center,
+									child: new RaisedButton(
+										onPressed: () => print('Hellow'),
+										color: Colors.blueAccent.shade100,
+										child: new Text('Calculate'),
+										textColor: Colors.white,
+									),
+								),
 							],
 						),
 					)
