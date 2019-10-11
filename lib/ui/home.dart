@@ -29,10 +29,37 @@ class BmiState extends State<Home> {
 						height: 75.0,
 						width: 65.0
 					),
+					
+					new Container(
+						margin: const EdgeInsets.all(3.0),
+						height: 245.0,
+						width: 290.0,
+						color: Colors.grey.shade100,
+						child: new Column(
+							children: <Widget>[
+								new TextField(
+									controller: null,
+									keyboardType: TextInputType.number,
+									decoration: new InputDecoration(
+										labelText: 'Age',
+										hintText: 'placeholder',
+										icon: new Icon(Icons.person_outline)
+									),
+								),
+								new TextField(
+									controller: null,
+									keyboardType: TextInputType.number,
+									decoration: new InputDecoration(
+										hintText: 'E.g 6.5',
+										labelText: 'Height',
+									),
+								)
+							],
+						),
+					)
 				],
 			),
 		),
 	);
   }
-	
 }
