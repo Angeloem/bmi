@@ -121,7 +121,7 @@ class BmiState extends State<Home> {
                 ),
                 new Padding(padding: const EdgeInsets.all(5.0)),
                 new Text(
-                  'OverWeight: ',
+                  'C0MM3NT: $_resultReading',
                   style: new TextStyle(
                       color: Colors.blueAccent,
                       fontWeight: FontWeight.w500,
