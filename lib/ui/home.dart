@@ -79,6 +79,31 @@ class BmiState extends State<Home> {
 								),
 							],
 						),
+					),
+					new Column(
+						mainAxisAlignment: MainAxisAlignment.center,
+						children: <Widget>[
+							new Text(
+								"BMI: ",
+								style: new TextStyle(
+									color: Colors.blueAccent,
+									fontWeight: FontWeight.w500,
+									fontStyle: FontStyle.italic,
+									fontSize: 19.9
+								),
+							),
+							
+							new Padding(padding: const EdgeInsets.all(5.0)),
+							
+							new Text('OverWeight: ',
+								style: new TextStyle(
+									color: Colors.blueAccent,
+									fontWeight: FontWeight.w500,
+									fontStyle: FontStyle.italic,
+									fontSize: 19.9
+								),
+							)
+						],
 					)
 				],
 			),
