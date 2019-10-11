@@ -19,6 +19,19 @@ class BmiState extends State<Home> {
 			backgroundColor: Colors.purple,
 			
 		),
+		
+		body: new Container(
+			alignment: Alignment.topCenter,
+			child: new ListView(
+				padding: const EdgeInsets.all(2.0),
+				children: <Widget>[
+					new Image.asset('images/bmilogo.png',
+						height: 75.0,
+						width: 65.0
+					),
+				],
+			),
+		),
 	);
   }
 	
