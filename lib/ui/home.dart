@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/material.dart' as prefix0;
 
 class Home extends StatefulWidget{
 	@override
@@ -37,6 +36,7 @@ class BmiState extends State<Home> {
 						color: Colors.grey.shade100,
 						child: new Column(
 							children: <Widget>[
+								// the first input
 								new TextField(
 									controller: null,
 									keyboardType: TextInputType.number,
@@ -46,6 +46,7 @@ class BmiState extends State<Home> {
 										icon: new Icon(Icons.person_outline)
 									),
 								),
+
 								new TextField(
 									controller: null,
 									keyboardType: TextInputType.number,
