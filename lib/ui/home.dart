@@ -1,3 +1,4 @@
+import 'package:bmi/ui/slivers.dart';
 import 'package:flutter/material.dart';
 
 class Home extends StatefulWidget {
@@ -26,7 +27,7 @@ class BmiState extends State<Home> {
 			if((_age.text.isNotEmpty || age > 0)
 				&& ((_height.text.isNotEmpty || inches > 0)
 					&& (_weight.text.isNotEmpty || weight > 0))){
-				result = weight / ( inches * inches ) * 703; // result
+				result = weight / ( inches * inches ); // result
 				
 				
 				if (double.parse(result.toStringAsFixed(1)) < 18.5) {
@@ -45,6 +46,10 @@ class BmiState extends State<Home> {
 			}
   	});
 	_finalReading = "Your Results: ${result.toStringAsFixed(1)}";
+	
+	Navigator.push(context,
+		MaterialPageRoute(builder: (context) => Sliver())
+	);
   }
 
   @override
