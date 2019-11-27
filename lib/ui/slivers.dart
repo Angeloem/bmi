@@ -77,11 +77,11 @@ class _SliverState extends State<Sliver> {
 								    Padding(
 									    padding: const EdgeInsets.only(top: 5.0),
 									    child: Text(
-										    '44.5%',
+										    'Balance',
 										    style: TextStyle(
 											    fontSize: 20,
-											    fontWeight: FontWeight.w300,
-											    color: Colors.white.withOpacity(.7)
+											    fontWeight: FontWeight.w500,
+											    color: Colors.white
 										    ),
 									    ),
 								    ),

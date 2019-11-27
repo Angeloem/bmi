@@ -53,6 +53,7 @@ class _DashBoardViewState extends State<DashBoardView> {
                                 color: Colors.black,
                                 decoration: TextDecoration.none,
                                 fontSize: 22,
+                                fontFamily: 'sanSerif',
                                 fontWeight: FontWeight.bold,
                             ),
                             textAlign: TextAlign.left,
@@ -80,6 +81,7 @@ class _DashBoardViewState extends State<DashBoardView> {
                                               color: Colors.black,
                                               decoration: TextDecoration.none,
                                               fontSize: 28,
+                                              fontFamily: 'sanSerif',
                                               fontWeight: FontWeight.bold
                                           ),
                                       ),
@@ -90,6 +92,7 @@ class _DashBoardViewState extends State<DashBoardView> {
                                           'Amount',
                                           style: TextStyle(
                                               color: Colors.black,
+                                              fontFamily: 'sanSerif',
                                               decoration: TextDecoration.none,
                                               fontSize: 13
                                           ),
@@ -115,6 +118,7 @@ class _DashBoardViewState extends State<DashBoardView> {
                                               color: Colors.black,
                                               decoration: TextDecoration.none,
                                               fontSize: 28,
+                                              fontFamily: 'sanSerif',
                                               fontWeight: FontWeight.bold
                                           ),
                                       ),
@@ -127,6 +131,7 @@ class _DashBoardViewState extends State<DashBoardView> {
                                               color: Colors.black,
                                               decoration: TextDecoration.none,
                                               fontStyle: FontStyle.normal,
+                                              fontFamily: 'sanSerif',
                                               fontSize: 13
                                           ),
                                       )
@@ -151,6 +156,7 @@ class _DashBoardViewState extends State<DashBoardView> {
                                               color: Colors.black,
                                               decoration: TextDecoration.none,
                                               fontSize: 28,
+                                              fontFamily: 'sanSerif',
                                               fontWeight: FontWeight.bold
                                           ),
                                       ),
@@ -163,6 +169,7 @@ class _DashBoardViewState extends State<DashBoardView> {
                                               color: Colors.black,
                                               decoration: TextDecoration.none,
                                               fontStyle: FontStyle.normal,
+                                              fontFamily: 'sanSerif',
                                               fontSize: 13
                                           ),
                                       )
@@ -195,6 +202,7 @@ class _DashBoardViewState extends State<DashBoardView> {
                                 color: Colors.black,
                                 decoration: TextDecoration.none,
                                 fontSize: 22,
+                                fontFamily: 'sanSerif',
                                 fontWeight: FontWeight.bold,
                             ),
                             textAlign: TextAlign.left,
@@ -222,6 +230,7 @@ class _DashBoardViewState extends State<DashBoardView> {
                                                 color: Colors.black,
                                                 decoration: TextDecoration.none,
                                                 fontSize: 28,
+                                                fontFamily: 'sanSerif',
                                                 fontWeight: FontWeight.bold,
                                             ),
                                         ),
@@ -232,6 +241,7 @@ class _DashBoardViewState extends State<DashBoardView> {
                                             'Amount',
                                             style: TextStyle(
                                                 color: Colors.black,
+                                                fontFamily: 'sanSerif',
                                                 decoration: TextDecoration.none,
                                                 fontSize: 13
                                             ),
@@ -257,6 +267,7 @@ class _DashBoardViewState extends State<DashBoardView> {
                                                 color: Colors.black,
                                                 decoration: TextDecoration.none,
                                                 fontSize: 28,
+                                                fontFamily: 'sanSerif',
                                                 fontWeight: FontWeight.bold
                                             ),
                                         ),
@@ -269,6 +280,7 @@ class _DashBoardViewState extends State<DashBoardView> {
                                                 color: Colors.black,
                                                 decoration: TextDecoration.none,
                                                 fontStyle: FontStyle.normal,
+                                                fontFamily: 'sanSerif',
                                                 fontSize: 13
                                             ),
                                         )
@@ -293,6 +305,7 @@ class _DashBoardViewState extends State<DashBoardView> {
                                                 color: Colors.black,
                                                 decoration: TextDecoration.none,
                                                 fontSize: 28,
+                                                fontFamily: 'sanSerif',
                                                 fontWeight: FontWeight.bold
                                             ),
                                         ),
@@ -305,6 +318,7 @@ class _DashBoardViewState extends State<DashBoardView> {
                                                 color: Colors.black,
                                                 decoration: TextDecoration.none,
                                                 fontStyle: FontStyle.normal,
+                                                fontFamily: 'sanSerif',
                                                 fontSize: 13
                                             ),
                                         )
@@ -337,6 +351,7 @@ class _DashBoardViewState extends State<DashBoardView> {
                                 color: Colors.black,
                                 decoration: TextDecoration.none,
                                 fontSize: 22,
+                                fontFamily: 'sanSerif',
                                 fontWeight: FontWeight.bold,
                             ),
                             textAlign: TextAlign.left,
@@ -364,6 +379,7 @@ class _DashBoardViewState extends State<DashBoardView> {
                                                 color: Colors.black,
                                                 decoration: TextDecoration.none,
                                                 fontSize: 28,
+                                                fontFamily: 'sanSerif',
                                                 fontWeight: FontWeight.bold,
                                             ),
                                         ),
@@ -374,6 +390,7 @@ class _DashBoardViewState extends State<DashBoardView> {
                                             'Amount',
                                             style: TextStyle(
                                                 color: Colors.black,
+                                                fontFamily: 'sanSerif',
                                                 decoration: TextDecoration.none,
                                                 fontSize: 13
                                             ),
@@ -399,6 +416,7 @@ class _DashBoardViewState extends State<DashBoardView> {
                                                 color: Colors.black,
                                                 decoration: TextDecoration.none,
                                                 fontSize: 28,
+                                                fontFamily: 'sanSerif',
                                                 fontWeight: FontWeight.bold
                                             ),
                                         ),
@@ -411,6 +429,7 @@ class _DashBoardViewState extends State<DashBoardView> {
                                                 color: Colors.black,
                                                 decoration: TextDecoration.none,
                                                 fontStyle: FontStyle.normal,
+                                                fontFamily: 'sanSerif',
                                                 fontSize: 13
                                             ),
                                         )
@@ -434,7 +453,8 @@ class _DashBoardViewState extends State<DashBoardView> {
                                             style: TextStyle(
                                                 color: Colors.black,
                                                 decoration: TextDecoration.none,
-                                                fontSize: 25,
+                                                fontSize: 26,
+                                                fontFamily: 'sanSerif',
                                                 fontWeight: FontWeight.bold
                                             ),
                                         ),
@@ -447,6 +467,7 @@ class _DashBoardViewState extends State<DashBoardView> {
                                                 color: Colors.black,
                                                 decoration: TextDecoration.none,
                                                 fontStyle: FontStyle.normal,
+                                                fontFamily: 'sanSerif',
                                                 fontSize: 13
                                             ),
                                         )
