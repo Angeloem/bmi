@@ -59,7 +59,7 @@ class BmiState extends State<Home> {
       appBar: new AppBar(
         title: new Text('Measure BMI'),
         centerTitle: true,
-        backgroundColor: Colors.purple,
+        backgroundColor: Colors.purple.shade900,
       ),
       body: new Container(
         alignment: Alignment.topCenter,
